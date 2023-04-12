@@ -21,16 +21,26 @@
 title: What did I learn today? 
 email: yah@nah 
 description: >- # this means to ignore newlines until "baseurl:"
- A brief summary of interesting subjects
+  A brief summary of interesting subjects
 baseurl: "/" 
 url: "https://glitterghosty.github.io/" 
 github_username: glitterghosty 
 
 # Build settings
-theme: minima
+remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
 
+sass:
+  style: :compressed
+  
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
