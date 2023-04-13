@@ -4,4 +4,4 @@
 
 layout: home
 ---
-Glitter note: This is index.markdown
+*Glitter note: This is index.markdown*
